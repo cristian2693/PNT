@@ -14,24 +14,80 @@ body{
     font-size: 50px;
     border: 20px;
     text-align: center;
+    text-shadow: rgb(0, 25, 80) 0 -6px;
   }
   h2 {
     font-family: 'Georgia';
+    color: #6070fa;
+    font-weight: normal;
+    font-size: 45px;
+    text-align: center;
+    text-shadow: rgb(0, 25, 80) 0 -3px;
+    
+  }
+
+  h4 {
+    font-family: 'Georgia';
+    color: #6070fa;
+    font-weight: normal;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: rgb(0, 25, 80) 0 -3px;
+  }
+
+  .label{
+    font-family: 'Georgia';
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 25px;
+    text-align: center;
+    text-shadow: rgb(0, 0, 0) 0 -4px;
+  }
+
+  .check{
+    font-size: 25px;
+    font-family: 'Georgia';
+  }
+
+  h3 {
+    font-family: 'Georgia';
     color: rgb(254, 254, 254);
     font-weight: normal;
-    font-size: 20px;
-    border: 20px;
-    text-align: left;
-    margin-left: 10%;
+    font-size: 30px;
+    text-align: center;
   }
   form{
     color: rgb(243, 239, 239);
-  
     font-size: 20px;
-  
     font-family: Helvetica;
+    text-align: center;
+  }
 
-    text-align: left;
+  #formulario{
+  position: absolute;
+  left: 35%;
+  width: 600px;
+  border: 3px solid #1404a5;
+  border-radius: 40px;
+  box-shadow: 8px 1px 80px rgb(111, 153, 245);
+  }
 
-    margin-left: 10%;
+  .radio{
+    align-items: flex-start;
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(3.0); 
+    transform: scale(1.2);
+    
+  }
+
+  .botonEnviar{
+    align-items: center;
+    font-size: x-large;
+  }
+
+  .input{
+    font-size: x-large;
+  }
+  .textarea{
+    font-size: 30px;
   }
