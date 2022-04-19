@@ -1,0 +1,37 @@
+
+
+body{
+    background-image: url("https://d2yoo3qu6vrk5d.cloudfront.net/images/20200924142918/moe-900x485.webp");
+
+    background-size: cover;
+  
+  }
+
+  h1 {
+    font-family: 'Lucida Grande';
+    color: rgb(254, 254, 254);
+    font-weight: bold;
+    font-size: 50px;
+    border: 20px;
+    text-align: center;
+  }
+  h2 {
+    font-family: 'Georgia';
+    color: rgb(254, 254, 254);
+    font-weight: normal;
+    font-size: 20px;
+    border: 20px;
+    text-align: left;
+    margin-left: 10%;
+  }
+  form{
+    color: rgb(243, 239, 239);
+  
+    font-size: 20px;
+  
+    font-family: Helvetica;
+
+    text-align: left;
+
+    margin-left: 10%;
+  }
